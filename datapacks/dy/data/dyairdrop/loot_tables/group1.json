@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brimm:killa_h",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lv.3 헬멧\",\"color\":\"aqua\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.0833333
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brimm:ghost",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lv.3 조끼\",\"color\":\"aqua\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.0833333
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:357mag\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentEXTENDED_MAG:{id:\"tacz:attachment\",Count:1b,tag:{AttachmentId:\"tacz:ammo_mod_he\"}},HasBulletInBarrel:0b,GunId:\"tacz:deagle_golden\",AttachmentSCOPE:{id:\"tacz:attachment\",Count:1b,tag:{AttachmentId:\"tacz:scope_contender\"}},AttachmentMUZZLE:{id:\"tacz:attachment\",Count:1b,tag:{AttachmentId:\"tacz:deagle_golden_long_barrel\"}},AttachmentLASER:{id:\"tacz:attachment\",Count:1b,tag:{AttachmentId:\"tacz:laser_compact\"}},GunFireMode:\"SEMI\",GunCurrentAmmoCount:0}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ys_mcbg:bag_lv3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,Damage:0,display:{Lore:['{\"text\":\"가방 칸에 장착해주세요\",\"color\":\"gray\",\"italic\":false}\'],Name:'{\"text\":\"Lv.3 가방\",\"color\":\"aqua\",\"italic\":false}\'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

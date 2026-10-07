@@ -1,0 +1,2 @@
+execute as @e[tag=a,scores={gameTime=31000}] run setairdrop random @r 180 0 30 150 "dyairdrop:airdropsmall" "dyairdrop:master" false
+execute as @e[tag=a,scores={gameTime=4}] run tellraw @a[tag=admin] [{"text":"[시스템] ","color":"red","bold":true},{"text":"게임시간 세팅 : ","color":"white","bold":false},{"text":"50분","color":"white","bold":true}]

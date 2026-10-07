@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group1", "weight": 1 },
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group2", "weight": 1 },
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group3", "weight": 1 },
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group4", "weight": 1 },
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group5", "weight": 1 },
+        { "type": "minecraft:loot_table", "name": "dyairdrop:group6", "weight": 1 }
+      ]
+    }
+  ]
+}

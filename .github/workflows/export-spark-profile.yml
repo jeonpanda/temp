@@ -1,0 +1,25 @@
+name: Export spark profile
+
+on:
+  push:
+    branches:
+      - temp-download-sparkprofile-20261007
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Package profile
+        run: |
+          mkdir -p export
+          cp Q87soOY32n.sparkprofile export/Q87soOY32n.sparkprofile
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spark-profile-download
+          path: export/Q87soOY32n.sparkprofile
+          if-no-files-found: error
